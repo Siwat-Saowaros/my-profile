@@ -41,13 +41,12 @@ class App extends React.Component {
   } 
   render() {
     return <div className="App">
-      <h1>Siwat saowaros</h1>
-    {/* <DateHeader />
+    <DateHeader />
     <Spinner status = {this.state.shouldShowSpinner}/>
-    <Routes categories={this.state.categories} /> */}
-    {/* {this.state.serverError ? (<div>
+    <Routes categories={this.state.categories} />
+    {this.state.serverError ? (<div>
       אוי לא! כנראה שישנה בעיה עם השרת. אנא נסו שנית מאוחר יותר.
-    </div>) : null } */}
+    </div>) : null }
   </div>
   }
 }
