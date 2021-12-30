@@ -1,7 +1,19 @@
-* {
-  background-color: #282c34;
+body {
+    background: linear-gradient(300deg,rgb(246, 21, 21),rgb(90, 0, 129),rgb(12, 4, 4));
+    background-size: 180% 180%;
+    animation: gradient-animation 17s ease infinite;
 }
-
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .App {
   text-align: center;
   min-height: 100vh;
